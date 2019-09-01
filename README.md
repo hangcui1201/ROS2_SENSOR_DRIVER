@@ -14,7 +14,7 @@ $ ros2 run tf2_ros static_transform_publisher 0 0 0 0 0 0 map laser
 
 $ ros2 launch hls_lfcd_lds_driver view_hlds_laser.launch.py  
 
-<img src="./images/hls_demo.png" height="50%">
+<img src="./images/hls_demo.png">
 
 
 
