@@ -17,10 +17,15 @@ $ ros2 launch hls_lfcd_lds_driver view_hlds_laser.launch.py
 <!--
 <a href="url"><img src="./images/hls_demo.png" align="left" height="100" width="48" ></a> 
 -->
-<a href="url"><img src="./images/hls_demo.png" align="left" height="350"></a> 
+<a href="url"><img src="./images/hls_demo.png" height="400"></a>  
+  
 
+#### ZED Stereo Camera
 
+[ZED Stereo Camera SDK Jetpack 4.2](https://www.stereolabs.com/developers/release/#sdkdownloads_anchor)  
 
+$ sudo /usr/local/zed/tools/'ZED Diagnostic'  
 
+<a href="url"><img src="./images/ZED.png" height="400"></a>  
 
-
+$ sudo /usr/local/zed/tools/'ZED Explorer'  
