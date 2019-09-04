@@ -36,7 +36,15 @@ $ ros2 run rqt_image_view rqt_image_view
   
 <a href="url"><img src="./images/usb_camera_driver_2.png" width="600"></a>  
 
+#### USB Camera with OpenCV (2D)
 
+[REFERENCE](https://github.com/clydemcqueen/opencv_cam)  
+
+$ colcon build --symlink-install  
+
+$ ros2 run opencv_cam opencv_cam_main  
+
+$ ros2 run rqt_image_view rqt_image_view  
 
 
 #### ZED Stereo Camera
