@@ -45,6 +45,6 @@ $ ros2 run rqt_image_view rqt_image_view
 
 $ sudo /usr/local/zed/tools/'ZED Diagnostic'  
 
-<a href="url"><img src="./images/ZED.png" height="400"></a>  
+<a href="url"><img src="./images/ZED.png" width="500"></a>  
 
 $ sudo /usr/local/zed/tools/'ZED Explorer'  
