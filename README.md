@@ -17,8 +17,27 @@ $ ros2 launch hls_lfcd_lds_driver view_hlds_laser.launch.py
 <!--
 <a href="url"><img src="./images/hls_demo.png" align="left" height="100" width="48" ></a> 
 -->
-<a href="url"><img src="./images/hls_demo.png" height="400"></a>  
+<a href="url"><img src="./images/hls_demo.png" width="600"></a>  
   
+
+#### USB Camera (2D)
+
+[REFERENCE](https://github.com/klintan/ros2_usb_camera)  
+
+$ colcon build --symlink-install  
+
+$ ros2 run usb_camera_driver usb_camera_driver_node  
+
+$ ros2 run image_transport republish raw in:=image_raw compressed out:=image_raw_compressed  
+
+$ ros2 run rqt_image_view rqt_image_view  
+
+<a href="url"><img src="./images/usb_camera_driver_1.png" width="600"></a>  
+  
+<a href="url"><img src="./images/usb_camera_driver_2.png" width="600"></a>  
+
+
+
 
 #### ZED Stereo Camera
 
