@@ -2,6 +2,24 @@
 
 ### ROS2 version: Dashing  (Ubuntu 18.04)
 
+#### Logitech F710 Joystick
+
+[REFERENCE1](https://www.jetsonhacks.com/2018/08/19/racecar-j-ros-teleoperation/)  
+[REFERENCE2](https://github.com/FurqanHabibi/joystick_ros2)  
+
+Switch to "X" mode, not in "D" mode  
+
+$ colcon build --symlink-install  
+
+$ ros2 run joystick_ros2 joystick_ros2  
+
+$ ros2 topic echo /joy  
+
+<a href="url"><img src="./images/F710_1.png" width="600"></a>  
+<a href="url"><img src="./images/F710_2.png" width="600"></a>  
+<a href="url"><img src="./images/F710_3.png" width="600"></a>  
+<a href="url"><img src="./images/F710_4.png" width="600"></a>  
+
 #### HLS LFCD LDS 2D Laser
 
 [HLS LFCD LDS 2D LASER DRIVER](https://github.com/ROBOTIS-GIT/hls_lfcd_lds_driver/tree/dashing-devel)  
